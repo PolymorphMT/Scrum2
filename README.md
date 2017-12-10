@@ -1,3 +1,3 @@
 # Scrum2
 
-Scrum work for group M2, Bournemouth Uni Computing
+Scrum work for group M1, Bournemouth Uni Computing
