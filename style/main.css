@@ -1,0 +1,20 @@
+#navdiv {
+    font-size: 34px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Comic Sans MS";
+}
+
+.advert{
+    box-sizing: content-box;
+    width: auto;
+    border: solid dodgerblue 5px;
+    padding: 6px;
+    margin:3px;
+}
