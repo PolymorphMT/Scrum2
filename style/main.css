@@ -6,16 +6,32 @@ a {
     color: rgb(255, 16, 16);
     text-decoration: none;
 }
+a:hover {
+    color:hotpink;
+}
+a:active{
+    color:lightcoral;
+}
+
+li{
+    list-style-type: circle;
+}
 
 body {
     font-family: "Comic Sans MS"; 
     background-color: #FFF3F3;
+    text-align: left;
 }
 
 .advert{
     box-sizing: content-box;
     width: auto;
     border: solid dodgerblue 5px;
+    box-shadow: 5px 10px #888888;
     padding: 6px;
     margin:3px;
+}
+
+#MovieTitles{
+        background-color: #54CC14;
 }
