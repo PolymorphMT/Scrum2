@@ -35,3 +35,16 @@ body {
 #MovieTitles{
         background-color: #54CC14;
 }
+
+p[class] {font-size: 22px;}
+
+p[class="advert1"] {
+@import url('https://fonts.googleapis.com/css?family=Lato');
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    top:30px;
+    font-size: 30px;}
+
+.signup{
+
+}

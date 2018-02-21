@@ -1,6 +1,6 @@
 <!doctype html>
+<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="style/main.css">
-<link rel="stylesheet" type="text/css" href="Bootstrap/bootstrap.min.css">
 
 <style>
     body{
@@ -53,7 +53,7 @@
     </table>
 </div>
 
-<div id="content">
+<div id="container">
 
     <article>
         <!--<h1>Content</h1>-->
@@ -61,18 +61,25 @@
         <p>You can sign up to the Grapefruit Movies club to receive <strong>awesome news</strong> on your favourite movies and actors!</p>
     </article>
 
-    <form>
+    <form style="visibility:visible">
+        <div class="row">
+        <div class="col">
         First name:<br>
         <input style="padding: 12px 5px;" type="text" name="firstname" value="Bruce">
-        <br>
-        Last name:<br>
+        </div>
+        <div class="col">
+            Last name:<br>
         <input style="padding: 12px 5px;" type="text" name="lastname" value="Willis">
-        <br>
-        email:<br>
+        </div>
+        <div class="col">
+            email:<br>
         <input  style="padding: 12px 5px;" type="text" name="email" value="bwillis@diehard.com">
-        <br><br>
-        <input type="submit" value="Submit">
+        </div>
+            <br>
+        <input style="visibility:hidden; width:100%;" type="submit" value="Submit">
+        </div>
     </form>
+
 
 </div>
 <footer>
